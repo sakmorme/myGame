@@ -16,7 +16,7 @@ public class main : MonoBehaviour
         player = GameObject.Find("player");
         cameraObj = GameObject.Find("cam"); //遊戲攝影機我們有從新命名為cam
         camera2player = cameraObj.transform.position - player.transform.position;
-        speed = 0.25f;
+        speed = 1.5f;
         playerSpeed=0.1f;
     }
 
